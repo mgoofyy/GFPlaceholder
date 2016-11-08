@@ -51,6 +51,7 @@
 		456B93CA1DD1CB8D00D143B2 /* GFPlaceholderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GFPlaceholderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		456B93CE1DD1CB8D00D143B2 /* GFPlaceholderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFPlaceholderUITests.m; sourceTree = "<group>"; };
 		456B93D01DD1CB8D00D143B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		456B93DD1DD1CC2B00D143B2 /* GFPlaceholder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFPlaceholder.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +102,7 @@
 		456B93A81DD1CB8D00D143B2 /* GFPlaceholder */ = {
 			isa = PBXGroup;
 			children = (
+				456B93DC1DD1CC0900D143B2 /* GFPlaceholder */,
 				456B93AC1DD1CB8D00D143B2 /* AppDelegate.h */,
 				456B93AD1DD1CB8D00D143B2 /* AppDelegate.m */,
 				456B93AF1DD1CB8D00D143B2 /* ViewController.h */,
@@ -138,6 +140,14 @@
 				456B93D01DD1CB8D00D143B2 /* Info.plist */,
 			);
 			path = GFPlaceholderUITests;
+			sourceTree = "<group>";
+		};
+		456B93DC1DD1CC0900D143B2 /* GFPlaceholder */ = {
+			isa = PBXGroup;
+			children = (
+				456B93DD1DD1CC2B00D143B2 /* GFPlaceholder.h */,
+			);
+			path = GFPlaceholder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
